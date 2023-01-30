@@ -1,0 +1,62 @@
+/* ---- general style ---- */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(150, 50, 250);
+    background: linear-gradient(0deg, rgba(1, 20, 150, 1) 0%, rgba(10, 15, 40, 1) 100%);
+    color: #fff;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section.classeff {
+    background: rgba(223, 14, 14, 0.459);
+}
+
+/* ---- end general style ---- */
+header {
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #0d8ae3fa;
+    font-size: 30px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background: white;
+    color: #0d8ae3fa;
+}
+
+h1 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 60px;
+    margin: 40px;
+}
+
+p {
+    display: flex;
+    justify-content: flex-start;
+    line-height: 33px;
+    width: 1000px;
+    margin: 40px;
+    padding: 0;
+    font-size: 1.2em;
+}
